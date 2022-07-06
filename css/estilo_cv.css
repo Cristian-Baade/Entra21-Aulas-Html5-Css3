@@ -1,0 +1,16 @@
+body{
+    color: white;
+    background-color: firebrick;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+a{
+    color: ghostwhite;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+

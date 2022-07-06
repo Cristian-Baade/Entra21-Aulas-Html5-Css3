@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        p {
+            /* Utilizando o nome do seletor, todos os seletores desta pagina recebem esse estilo */
+            background-color: #c1c1c1;
+        }
+
+        .destaque {
+            /* Utilizando PONTO, todos os seletores que tenham o atributo class
+            que contenha esse nome recebem o estilo */
+            background-color: #11c90b;
+        }
+
+#especifico{
+    /* Utilizando #, apenas o seletor que tenha o atributo id="especifico" recebe esse estilo */
+    border: 1px solid black;
+}
+
+    </style>
+
+    <link rel="stylesheet" href="/css/area51.css">
+</head>
+
+<body>
+
+    <a class="destaque"  href="/index.html">Voltar para a pagina principal</a>
+    <hr>
+
+    <p style="color:red;background-color:black; font-weight: bold; width: 70px;">Vermelho</p>
+    <span style="border: 1px dashed black ;">Texto normal</span>
+
+    <ul style="font-weight: bold; background:red; width: 50px ;">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+
+    <img style="height: 50px; width: 50px; border-radius: 50px ;" src="/Aula01/Interno/js.png" alt="">
+
+    <div style="text-align: center; border: 1px solid black;">
+        <p>A</p>
+        <p>B</p>
+        <p class="destaque">C</p>
+
+    </div>
+    <p>Testando Css</p>
+    <span class="destaque"> As experiências acumuladas demonstram que a mobilidade dos capitais internacionais nos
+        obriga à análise das condições financeiras e administrativas exigidas. Ainda assim, existem dúvidas a respeito
+        de como a complexidade dos estudos efetuados obstaculiza a apreciação da importância da gestão inovadora da qual
+        fazemos parte. Assim mesmo, a execução dos pontos do programa assume importantes posições no estabelecimento do
+        sistema de formação de quadros que corresponde às necessidades. No entanto, não podemos esquecer que a estrutura
+        atual da organização não pode mais se dissociar dos modos de operação convencionais. Do mesmo modo, o
+        entendimento das metas propostas estende o alcance e a importância das novas proposições.</span>
+<!-- i.destaque -->
+    <i class="destaque"> hello </i>
+<!-- b#especifico -->
+    <b id="especifico"> Cristian </b>
+<hr>
+<div>blablabla</div>
+
+</body>
+
+</html>
